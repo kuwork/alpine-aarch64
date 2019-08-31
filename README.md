@@ -1,13 +1,13 @@
 # alpine-aarch64
 Docker Images for Raspberry 4B aarch64 base on alpine
 
-[![Alpine Version](https://img.shields.io/badge/Alpine%20version-v3.10.1-green.svg?style=for-the-badge)](https://alpinelinux.org/) 
+[![Alpine Version](https://img.shields.io/badge/Alpine%20version-v3.10.2-green.svg?style=for-the-badge)](https://alpinelinux.org/) 
 [![MariaDB Version](https://img.shields.io/badge/Mariadb%20version-v10.3.17-green.svg?style=for-the-badge)](https://mariadb.org/)
 
 
 This Docker image [(yobasystems/alpine)](https://hub.docker.com/r/yobasystems/alpine/) is based on the minimal [Alpine Linux](https://alpinelinux.org/).
 
-##### Alpine Version 3.10.1 (Released July 11, 2019)
+##### Alpine Version 3.10.2 (Released July 11, 2019)
 
 This docker image is the base Alpine Linux. For more info on versions & support see [Releases](https://wiki.alpinelinux.org/wiki/Alpine_Linux:Releases)
 
@@ -29,18 +29,20 @@ Alpine Linux is a Linux distribution built around musl libc and BusyBox. The ima
 
 ## Tags
 
-* ```:3.10.1-aarch64```,  version tag (Automatic Architecture Selection),based on latest tag but arm64 architecture
+* ```:3.10.2-aarch64```,  version tag (Automatic Architecture Selection),based on latest tag but arm64 architecture
 
 ## Layers & Sizes
 
-![Version](https://img.shields.io/badge/version-aarch64-blue.svg?style=for-the-badge) ![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/yobasystems/alpine/aarch64.svg?style=for-the-badge) ![MicroBadger Size (tag)](https://img.shields.io/badge/IMAGE%20SIZE-5.33MB-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/alpine-aarch64-blue.svg?style=for-the-badge) ![MicroBadger Layers (tag)](https://img.shields.io/badge/laysers-6-blue.svg?style=for-the-badge) ![MicroBadger Size (tag)](https://img.shields.io/badge/IMAGE%20SIZE-5.08MB-blue?style=for-the-badge)
+
+![Version](https://img.shields.io/badge/mariadb-aarch64-blue.svg?style=for-the-badge) ![MicroBadger Layers (tag)](https://img.shields.io/badge/laysers-21-blue.svg?style=for-the-badge) ![MicroBadger Size (tag)](https://img.shields.io/badge/IMAGE%20SIZE-220MB-blue?style=for-the-badge)
 
 ## How to use this image
 #### Usage
 Use like you would any other base image:
 
 ```Dockerfile
-FROM kuwork/alpine:3.10.1-aarch64
+FROM kuwork/alpine:3.10.2-aarch64
 ...
 ```
 
